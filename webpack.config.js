@@ -68,7 +68,7 @@ module.exports = (_, argv) => ({
         // product: "product@http://localhost:3001/remoteEntry.js",
         product: "product@https://e-com-product-app-client.vercel.app/remoteEntry.js",
         // auth: "auth@http://localhost:3002/remoteEntry.js",
-        auth: "auth@hhttps://ecom-auth-app-client.vercel.app/remoteEntry.js",
+        auth: "auth@https://ecom-auth-app-client.vercel.app/remoteEntry.js",
         // cart: "cart@http://localhost:3003/remoteEntry.js",
         cart: "cart@https://ecom-cart-app-client.vercel.app/remoteEntry.js",
         // order: "order@http://localhost:3004/remoteEntry.js",
