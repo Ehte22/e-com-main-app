@@ -65,7 +65,6 @@ export const LOAD_AUTH_API = async () => {
     injectReducer("auth", authSlice)
 };
 
-
 export type RootState = ReturnType<typeof reduxStore.getState>;
 export type AppDispatch = typeof reduxStore.dispatch;
 
